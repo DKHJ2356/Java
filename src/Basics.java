@@ -10,7 +10,7 @@ public class Basics{
         // Variables
 
         int a = 59;
-        float b = 59.5;
+        float b = 59;
         double c = 59.83489; //more accurate than float but uses 8 bytes of memory
         String d = "Hello"; //there is no char in java but a function to get a single character
 
@@ -33,13 +33,14 @@ public class Basics{
         int j = 0;
 
         while(j<21){
-            System.out.print(j +" ")
+            System.out.print(j +" ");
+            j++;
         }
 
         System.out.println();
+        int k = 21;
 
         do{
-            int k = 21;
             System.out.println(k +" ");
             k++;
         }while(k<31);
